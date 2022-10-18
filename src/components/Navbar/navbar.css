@@ -16,9 +16,10 @@
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
+  color: var(--color-accent);
 }
 
-.navbar__links {
+.navbar__links__container ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -28,4 +29,40 @@
   text-transform: uppercase;
   font-size: 1.6rem;
   font-weight: 700;
+  flex: 1;
+}
+
+.navbar__mobile {
+  display: none;
+  position: relative;
+}
+
+.navbar__mobile__container ul {
+  list-style: none;
+  position: absolute;
+  display: flex;
+  justify-self: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 2rem;
+  top: 3rem;
+  right: 1rem;
+  margin-top: 1rem;
+  min-width: 15rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  gap: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 880px) {
+  .navbar__links__container {
+    display: none;
+  }
+
+  .navbar__mobile {
+    display: flex;
+  }
 }
