@@ -45,3 +45,53 @@
   font-size: 2rem;
   line-height: 4rem;
 }
+
+.hero__scroller {
+  position: absolute;
+  bottom: 20px;
+}
+
+@media screen and (max-width: 880px) {
+  .hero__title {
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+
+  .hero__content {
+    font-size: 2rem;
+    line-height: 3.6rem;
+  }
+
+  .hero__container .hero__button {
+    font-size: 1.8rem;
+    line-height: 4rem;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .hero__title {
+    font-size: 5.5rem;
+    line-height: 6.5rem;
+  }
+
+  .hero__content {
+    font-size: 1.8rem;
+    line-height: 3.4rem;
+  }
+
+  .hero__container .hero__button {
+    font-size: 1.8rem;
+    line-height: 4rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .hero__title {
+    font-size: 5rem;
+    line-height: 6.5rem;
+  }
+
+  .hero__container .hero__button {
+    font-size: 1.6rem;
+  }
+}

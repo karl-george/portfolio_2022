@@ -1,3 +1,4 @@
+import { CgScrollV } from 'react-icons/cg';
 import './hero.css';
 
 const Hero = () => {
@@ -17,6 +18,9 @@ const Hero = () => {
             PROJECTS
           </a>
         </div>
+      </div>
+      <div className='hero__scroller'>
+        <CgScrollV color='#3b82f6' size={30} />
       </div>
     </div>
   );
