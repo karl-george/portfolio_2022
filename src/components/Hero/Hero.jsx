@@ -11,9 +11,11 @@ const Hero = () => {
           <p className='hero__content'>
             A <span className='text-accent'>Front-End Web Developer </span>
             passionate about creating interactive and responsive experiences on
-            the web.{' '}
+            the web.
           </p>
-          <button>PROJECTS</button>
+          <a className='hero__button btn btn-filled' href='#projects'>
+            PROJECTS
+          </a>
         </div>
       </div>
     </div>
