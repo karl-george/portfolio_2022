@@ -5,13 +5,13 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
+      <Navbar />
       <div className='container'>
-        <Navbar />
-        <Hero />
+        {/* <Hero />
         <Projects />
         <Skills />
         <Contact />
-        <Footer />
+        <Footer /> */}
       </div>
     </div>
   );

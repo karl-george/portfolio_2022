@@ -6,3 +6,12 @@
 .section__padding {
   margin: 12rem 0;
 }
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+a:hover {
+  color: var(--color-accent);
+}

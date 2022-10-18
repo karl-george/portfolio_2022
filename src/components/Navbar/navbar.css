@@ -1,0 +1,31 @@
+.navbar {
+  position: sticky;
+  z-index: 1000;
+  padding: 2rem 0;
+  box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navbar__brand {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navbar__links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 4rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
