@@ -8,6 +8,10 @@
   margin: 12rem 0;
 }
 
+.text-accent {
+  color: var(--color-accent);
+}
+
 a {
   text-decoration: none;
   color: var(--color-text);

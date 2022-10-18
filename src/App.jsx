@@ -6,12 +6,12 @@ function App() {
   return (
     <div className='App'>
       <Navbar />
+      <Hero />
       <div className='container'>
-        {/* <Hero />
         <Projects />
         <Skills />
         <Contact />
-        <Footer /> */}
+        <Footer />
       </div>
     </div>
   );

@@ -1,8 +1,11 @@
 .navbar {
   position: sticky;
   z-index: 1000;
-  padding: 2rem 0;
+  width: 100%;
   box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
+  padding: 3rem 0;
+  top: 0;
+  background: #fff;
 }
 
 .navbar__container {
