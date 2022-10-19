@@ -1,3 +1,4 @@
 .projects__container {
-  margin-top: 12rem;
+  margin: 12rem auto 0;
+  max-width: 1000px;
 }

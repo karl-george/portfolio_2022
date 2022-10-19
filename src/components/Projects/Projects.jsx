@@ -1,4 +1,6 @@
 import ProjectBlock from '../ProjectBlock/ProjectBlock';
+import news from '../../assets/news.png';
+import dga from '../../assets/dga.png';
 import './projects.css';
 
 const Projects = () => {
@@ -10,23 +12,23 @@ const Projects = () => {
       </div>
       <div className='projects__container'>
         <ProjectBlock
-          img={`https://picsum.photos/200/300`}
+          img={dga}
           title={`Title of project`}
           content={`Short explanation of what the project is about and how it was made. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut posuere felis. Aenean in mi vitae nisi pretium volutpat.`}
           liveLink={``}
           codeLink={``}
         />
         <ProjectBlock
-          img={`https://picsum.photos/200/300`}
-          title={``}
-          content={``}
+          img={`https://picsum.photos/500/400`}
+          title={`Title of project`}
+          content={`Short explanation of what the project is about and how it was made. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut posuere felis. Aenean in mi vitae nisi pretium volutpat.`}
           liveLink={``}
           codeLink={``}
         />
         <ProjectBlock
-          img={`https://picsum.photos/200/300`}
-          title={``}
-          content={``}
+          img={`https://picsum.photos/500/400`}
+          title={`Title of project`}
+          content={`Short explanation of what the project is about and how it was made. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut posuere felis. Aenean in mi vitae nisi pretium volutpat.`}
           liveLink={``}
           codeLink={``}
         />

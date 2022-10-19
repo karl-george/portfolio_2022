@@ -25,6 +25,10 @@ a:hover {
   color: var(--color-text);
 } */
 
+img {
+  width: 100%;
+}
+
 .btn {
   padding: 1.5rem 4rem;
   border-radius: 6px;

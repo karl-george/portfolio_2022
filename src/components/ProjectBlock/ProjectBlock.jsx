@@ -8,8 +8,8 @@ const ProjectBlock = ({ img, title, content, liveLink, codeLink }) => {
           <img src={img} />
         </div>
         <div className='pb__content'>
-          <h3>{title}</h3>
-          <p>{content}</p>
+          <h3 className='pb__content__title'>{title}</h3>
+          <p className='pb__content__desc'>{content}</p>
           <a href='' className='btn btn-filled'>
             Live
           </a>
