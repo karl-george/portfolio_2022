@@ -7,12 +7,10 @@ function App() {
     <div className='App'>
       <Navbar />
       <Hero />
-      <div className='container'>
-        <Projects />
-        <Skills />
-        <Contact />
-        <Footer />
-      </div>
+      <Projects />
+      <Skills />
+      <Contact />
+      <Footer />
     </div>
   );
 }

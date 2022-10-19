@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className='hero hero__bg'>
       <div className='container'>
-        <div className='hero__container'>
+        <div className='hero__container' id='home'>
           <h1 className='hero__title'>
             Hi, I'm <span className='text-accent'>Karl</span>
           </h1>
