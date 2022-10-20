@@ -1,12 +1,29 @@
+import { RiMailLine } from 'react-icons/ri';
+import { RiGithubFill } from 'react-icons/ri';
+import { RiLinkedinBoxFill } from 'react-icons/ri';
 import './contact.css';
 
 const Contact = () => {
   return (
-    <div className='contact bg-tint section__padding'>
+    <section className='contact bg-tint section__padding'>
       <div className='container'>
         <div className='contact__heading'>
           <h2 className='heading__title'>Contact</h2>
           <div className='divider'></div>
+        </div>
+        <div className='contact__socials__container'>
+          <div className='contact__socials-block'>
+            <RiMailLine size={70} color={'#3b82f6'} />
+            <p className='contact__socials-user'>karlgeorge87@gmail.com</p>
+          </div>
+          <div className='contact__socials-block'>
+            <RiLinkedinBoxFill size={70} color={'#3b82f6'} />
+            <p className='contact__socials-user'>Linkedin username</p>
+          </div>
+          <div className='contact__socials-block'>
+            <RiGithubFill size={70} color={'#3b82f6'} />
+            <p className='contact__socials-user'>github username</p>
+          </div>
         </div>
         <div className='contact__form__container'>
           <div className='contact__form'>
@@ -70,7 +87,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
