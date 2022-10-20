@@ -1,0 +1,32 @@
+.contact__form__container {
+  margin: 12rem auto;
+  padding: 4rem;
+  max-width: 1000px;
+  background: #fff;
+  box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
+  border-radius: 6px;
+}
+
+.contact__form-label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 1rem;
+}
+
+.contact__form-input {
+  padding: 1.5rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  background: #e9e9e9;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  outline: none;
+  margin-bottom: 4.5rem;
+  width: 100%;
+}
+
+.contact__form-button {
+  text-align: right;
+}
