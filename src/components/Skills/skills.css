@@ -1,0 +1,18 @@
+.skills__icons__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  padding-top: 12rem;
+}
+
+.skills__icons__container p {
+  text-align: center;
+  color: var(--color-text);
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 1024px) {
+}

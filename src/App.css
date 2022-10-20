@@ -29,6 +29,10 @@ img {
   width: 100%;
 }
 
+.icon {
+  width: 100px;
+}
+
 .btn {
   padding: 1.5rem 4rem;
   border-radius: 6px;
@@ -63,6 +67,18 @@ img {
   background: var(--color-accent);
   display: block;
   margin: 2.5rem auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .icon {
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .icon {
+    width: 80px;
+  }
 }
 
 /* Animations */
