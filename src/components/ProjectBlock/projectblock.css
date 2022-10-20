@@ -43,6 +43,11 @@
   color: #fff;
 }
 
+/*! Removes Live button from News App  */
+.projectblock:nth-child(2) .pb__content:nth-child(2) .liveBtn:nth-child(3) {
+  display: none;
+}
+
 @media screen and (max-width: 880px) {
   .projectblock {
     margin-bottom: 12rem;
@@ -53,19 +58,32 @@
     gap: 3rem;
   }
 
-  .pb__content__title {
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    color: var(--color-title);
-  }
-
   .pb__content__desc {
     margin-bottom: 4rem;
   }
 }
 
 @media screen and (max-width: 710px) {
+  .projectblock {
+    margin-bottom: 10rem;
+  }
+
+  .pb__content__title {
+    font-size: 2.2rem;
+  }
+
+  .pb__content__desc {
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+  }
 }
 
 @media screen and (max-width: 560px) {
+  .pb__content__title {
+    font-size: 2rem;
+  }
+
+  .pb__content__desc {
+    font-size: 1.7rem;
+  }
 }
