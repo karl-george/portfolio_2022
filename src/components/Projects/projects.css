@@ -1,4 +1,9 @@
+.projects {
+  background: #fafafa;
+}
+
 .projects__container {
-  margin: 12rem auto 0;
+  padding-top: 12rem;
+  margin: 0 auto;
   max-width: 1000px;
 }
