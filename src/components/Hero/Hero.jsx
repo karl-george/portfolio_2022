@@ -6,7 +6,7 @@ const Hero = () => {
     <div className='hero hero__bg' id='home'>
       <div className='container'>
         <div className='hero__container'>
-          <h1 className='hero__title'>
+          <h1 className='hero__title tracking-in-expand'>
             Hi, I'm <span className='text-accent'>Karl</span>
           </h1>
           <p className='hero__content'>

@@ -14,5 +14,7 @@
   font-size: 1.8rem;
 }
 
-@media screen and (max-width: 1024px) {
+.skills__icons__container div:hover {
+  -webkit-animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
 }
