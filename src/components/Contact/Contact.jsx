@@ -18,11 +18,18 @@ const Contact = () => {
           </div>
           <div className='contact__socials-block'>
             <RiLinkedinBoxFill size={70} color={'#3b82f6'} />
-            <p className='contact__socials-user'>Linkedin username</p>
+            <a
+              href='https://www.linkedin.com/in/karl-george-aab588159/'
+              target='_blank'
+            >
+              <p className='contact__socials-user'>Karl George</p>
+            </a>
           </div>
           <div className='contact__socials-block'>
             <RiGithubFill size={70} color={'#3b82f6'} />
-            <p className='contact__socials-user'>github username</p>
+            <a href='https://github.com/karl-george' target='_blank'>
+              <p className='contact__socials-user'>karl-george</p>
+            </a>
           </div>
         </div>
         <div className='contact__form__container'>

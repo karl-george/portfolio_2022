@@ -11,17 +11,20 @@ const Footer = () => {
           <div className='footer__brand'>Karl George</div>
           <div className='footer__socials__container'>
             <div className='footer__socials-block'>
-              <a href=''>
+              <a href='mailto:karlgeorge87@gmail.com' target='_blank'>
                 <RiMailLine size={30} color={'#3b82f6'} />
               </a>
             </div>
             <div className='footer__socials-block'>
-              <a href=''>
+              <a
+                href='https://www.linkedin.com/in/karl-george-aab588159/'
+                target='_blank'
+              >
                 <RiLinkedinBoxFill size={30} color={'#3b82f6'} />
               </a>
             </div>
             <div className='footer__socials-block'>
-              <a href=''>
+              <a href='https://github.com/karl-george' target='_blank'>
                 <RiGithubFill size={30} color={'#3b82f6'} />
               </a>
             </div>

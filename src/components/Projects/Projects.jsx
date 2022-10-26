@@ -17,22 +17,22 @@ const Projects = () => {
             img={dga}
             title={`Title of project`}
             content={`Short explanation of what the project is about and how it was made. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut posuere felis. Aenean in mi vitae nisi pretium volutpat.`}
-            liveLink={``}
-            codeLink={``}
+            liveLink={`https://karl-george.github.io/digital-agency-landing/`}
+            codeLink={`https://github.com/karl-george/digital-agency-landing`}
           />
           <ProjectBlock
             img={news}
             title={`Title of project`}
             content={`Short explanation of what the project is about and how it was made. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut posuere felis. Aenean in mi vitae nisi pretium volutpat.`}
             liveLink={``}
-            codeLink={``}
+            codeLink={`https://github.com/karl-george/news-app`}
           />
           <ProjectBlock
             img={weather}
             title={`Title of project`}
             content={`Short explanation of what the project is about and how it was made. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut posuere felis. Aenean in mi vitae nisi pretium volutpat.`}
-            liveLink={``}
-            codeLink={``}
+            liveLink={`https://karl-george.github.io/weather-app/`}
+            codeLink={`https://github.com/karl-george/weather-app`}
           />
         </div>
       </div>
