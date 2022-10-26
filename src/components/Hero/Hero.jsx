@@ -3,9 +3,9 @@ import './hero.css';
 
 const Hero = () => {
   return (
-    <div className='hero hero__bg'>
+    <div className='hero hero__bg' id='home'>
       <div className='container'>
-        <div className='hero__container' id='home'>
+        <div className='hero__container'>
           <h1 className='hero__title'>
             Hi, I'm <span className='text-accent'>Karl</span>
           </h1>

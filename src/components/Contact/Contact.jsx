@@ -5,7 +5,7 @@ import './contact.css';
 
 const Contact = () => {
   return (
-    <section className='contact bg-tint section__padding'>
+    <section className='contact bg-tint section__padding' id='contact'>
       <div className='container'>
         <div className='contact__heading'>
           <h2 className='heading__title'>Contact</h2>
