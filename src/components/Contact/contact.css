@@ -18,6 +18,10 @@
   width: 300px;
 }
 
+.contact__socials-block a {
+  color: var(--color-accent);
+}
+
 .contact__socials-user {
   margin-top: 2rem;
 }

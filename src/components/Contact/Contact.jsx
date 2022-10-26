@@ -14,7 +14,9 @@ const Contact = () => {
         <div className='contact__socials__container'>
           <div className='contact__socials-block'>
             <RiMailLine size={70} color={'#3b82f6'} />
-            <p className='contact__socials-user'>karlgeorge87@gmail.com</p>
+            <a href='mailto:karlgeorge87@gmail.com' target='_blank'>
+              <p className='contact__socials-user'>karlgeorge87@gmail.com</p>
+            </a>
           </div>
           <div className='contact__socials-block'>
             <RiLinkedinBoxFill size={70} color={'#3b82f6'} />
