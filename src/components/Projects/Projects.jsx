@@ -15,22 +15,22 @@ const Projects = () => {
         <div className='projects__container'>
           <ProjectBlock
             img={dga}
-            title={`Title of project`}
-            content={`Short explanation of what the project is about and how it was made. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut posuere felis. Aenean in mi vitae nisi pretium volutpat.`}
+            title={`Digital Agency SPA`}
+            content={`A website designed for a fictional design agency taken from initial design template through to finished product as a SPA.`}
             liveLink={`https://karl-george.github.io/digital-agency-landing/`}
             codeLink={`https://github.com/karl-george/digital-agency-landing`}
           />
           <ProjectBlock
             img={news}
-            title={`Title of project`}
-            content={`Short explanation of what the project is about and how it was made. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut posuere felis. Aenean in mi vitae nisi pretium volutpat.`}
+            title={`News App`}
+            content={`A news application designed to allow the user to filter news stories based upon categories. The app uses NewsAPI to source news stories from all of the major news providers. Unfortunately the API does not allow deploying to a live site for free and so there is no live preview.`}
             liveLink={``}
             codeLink={`https://github.com/karl-george/news-app`}
           />
           <ProjectBlock
             img={weather}
-            title={`Title of project`}
-            content={`Short explanation of what the project is about and how it was made. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut posuere felis. Aenean in mi vitae nisi pretium volutpat.`}
+            title={`Mobile Weather App`}
+            content={`A weather application that uses OpenWeather API to get the users location and displays current and future weather forecasts.`}
             liveLink={`https://karl-george.github.io/weather-app/`}
             codeLink={`https://github.com/karl-george/weather-app`}
           />
