@@ -59,3 +59,13 @@
 .contact__form-button {
   text-align: right;
 }
+
+@media screen and (max-width: 590px) {
+  .contact__socials__container {
+    margin: 8rem auto;
+  }
+
+  .contact__form__container {
+    margin: 12rem auto 8rem;
+  }
+}

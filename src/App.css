@@ -87,6 +87,21 @@ img {
   }
 }
 
+@media screen and (max-width: 590px) {
+  .container {
+    padding: 0 2.5rem;
+  }
+
+  .section__padding {
+    padding: 6rem 0;
+  }
+
+  .heading__title {
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+}
+
 /* Animations */
 .scale-up-center {
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)

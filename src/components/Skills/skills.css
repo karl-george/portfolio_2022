@@ -18,3 +18,9 @@
   -webkit-animation: jello-horizontal 0.9s both;
   animation: jello-horizontal 0.9s both;
 }
+
+@media screen and (max-width: 590px) {
+  .skills__icons__container {
+    padding-top: 8rem;
+  }
+}

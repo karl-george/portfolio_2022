@@ -85,7 +85,17 @@
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 590px) {
+  .hero__bg {
+    height: unset;
+    min-height: unset;
+  }
+
+  .hero__container {
+    position: static;
+    padding: 9rem 0;
+  }
+
   .hero__title {
     font-size: 5rem;
     line-height: 6.5rem;
@@ -93,5 +103,9 @@
 
   .hero__container .hero__button {
     font-size: 1.6rem;
+  }
+
+  .hero__scroller {
+    display: none;
   }
 }
