@@ -1,7 +1,7 @@
 import ProjectBlock from '../ProjectBlock/ProjectBlock';
 import news from '../../assets/news.png';
 import dga from '../../assets/dga.png';
-import weather from '../../assets/weather-str.png';
+import weather from '../../assets/weather.png';
 import './projects.css';
 
 const Projects = () => {
