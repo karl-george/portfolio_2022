@@ -86,4 +86,12 @@
   .pb__content__desc {
     font-size: 1.7rem;
   }
+
+  .pb__img {
+    flex: 1;
+  }
+
+  .pb__content {
+    flex: 1;
+  }
 }

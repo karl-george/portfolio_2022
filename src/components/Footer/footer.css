@@ -45,6 +45,10 @@
 }
 
 @media screen and (max-width: 404px) {
+  .footer__brand {
+    font-size: 1.8rem;
+  }
+
   .footer__socials-block {
     padding: 1rem;
   }
