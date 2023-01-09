@@ -44,9 +44,9 @@
 }
 
 /*! Removes Live button from News App  */
-.projectblock:nth-child(2) .pb__content:nth-child(2) .liveBtn:nth-child(3) {
+/* .projectblock:nth-child(2) .pb__content:nth-child(2) .liveBtn:nth-child(3) {
   display: none;
-}
+} */
 
 @media screen and (max-width: 880px) {
   .projectblock {
