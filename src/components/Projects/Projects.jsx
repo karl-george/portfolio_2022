@@ -1,5 +1,5 @@
 import ProjectBlock from '../ProjectBlock/ProjectBlock';
-import picthat from '../../assets/picthatn.png';
+import picthat from '../../assets/picthat.png';
 import dga from '../../assets/dga.png';
 import shoestop from '../../assets/shoestop.png';
 import './projects.css';
