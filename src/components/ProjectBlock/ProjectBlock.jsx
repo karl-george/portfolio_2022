@@ -1,6 +1,8 @@
 import './projectblock.css';
 
-const ProjectBlock = ({ img, title, content, liveLink, codeLink }) => {
+const ProjectBlock = ({ img, title, content, liveLink, codeLink, tech }) => {
+  const techList = tech?.map((tech) => <p key={tech}>{tech}</p>);
+
   return (
     <div className='projectblock'>
       <div className='pb__container'>
@@ -9,6 +11,7 @@ const ProjectBlock = ({ img, title, content, liveLink, codeLink }) => {
         </div>
         <div className='pb__content' data-aos='fade-up' data-aos-once='true'>
           <h3 className='pb__content__title'>{title}</h3>
+          <div className='pb__content__tech'>{techList}</div>
           <p className='pb__content__desc'>{content}</p>
           <a
             href={liveLink}

@@ -29,6 +29,15 @@
   color: var(--color-title);
 }
 
+.pb__content__tech {
+  font-weight: 400;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
 .pb__content__desc {
   font-weight: 400;
   font-size: 2rem;
@@ -42,11 +51,6 @@
   margin-right: 2rem;
   color: #fff;
 }
-
-/*! Removes Live button from News App  */
-/* .projectblock:nth-child(2) .pb__content:nth-child(2) .liveBtn:nth-child(3) {
-  display: none;
-} */
 
 @media screen and (max-width: 880px) {
   .projectblock {
