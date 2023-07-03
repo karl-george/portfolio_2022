@@ -6,6 +6,10 @@ import htmlImg from '../../assets/html.svg';
 import jsImg from '../../assets/js.svg';
 import nodeImg from '../../assets/node.svg';
 import pythonImg from '../../assets/python.svg';
+import typescriptImg from '../../assets/typescript-icon.svg';
+import sanityImg from '../../assets/sanity.svg';
+import tailwindImg from '../../assets/tailwind-css.svg';
+import nextjsImg from '../../assets/nextjs.svg';
 import './skills.css';
 
 const Skills = () => {
@@ -26,6 +30,10 @@ const Skills = () => {
             <p>JavaScript</p>
           </div>
           <div>
+            <img src={typescriptImg} className='icon' />
+            <p>TypeScript</p>
+          </div>
+          <div>
             <img src={htmlImg} className='icon' />
             <p>HTML</p>
           </div>
@@ -38,8 +46,20 @@ const Skills = () => {
             <p>Node.js</p>
           </div>
           <div>
+            <img src={nextjsImg} className='icon' />
+            <p>Next.js</p>
+          </div>
+          <div>
             <img src={bootstrapImg} className='icon' />
             <p>Bootstrap</p>
+          </div>
+          <div>
+            <img src={sanityImg} className='icon' />
+            <p>Sanity</p>
+          </div>
+          <div>
+            <img src={tailwindImg} className='icon' />
+            <p>Tailwind CSS</p>
           </div>
           <div>
             <img src={gitImg} className='icon' />
